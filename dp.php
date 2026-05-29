@@ -7,6 +7,6 @@ $database = "notes";
 
 $com = mysqli_connect($servername, $username, $password, $database);
 if (!$com) {
-    die("Sorry we failed to connect: " . mysqli_connect_error());
+    die("Database connection faild for some error" . mysqli_connect_error());
 }
 ?>
